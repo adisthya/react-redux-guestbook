@@ -16,7 +16,7 @@ export const GuestPages = {
 };
 
 export default function GuestBook() {
-  const [ page, setPage ] = useState('list');
+  const [ page, setPage ] = useState(GuestPages.GUESTS);
   const [ guestId, setGuestId ] = useState();
   const [ trxId, setTrxId ] = useState();
 
@@ -44,7 +44,7 @@ export default function GuestBook() {
   return (
     <Card className="shadow-lg">
       <Card.Header>
-        <strong className="fs-5">Guest Book App</strong>
+        <strong className="fs-5">Guestbook App</strong>
       </Card.Header>
       <Card.Body className="row">
         <Col as="section" sm="2">
