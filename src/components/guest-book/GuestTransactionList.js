@@ -47,7 +47,7 @@ function GuestTransactionList(props) {
                 </td>
               </tr>
             )) :
-            ( <tr><td colSpan={6} className="text-center fw-bold fst-italic text-info">No Transactions Data.</td></tr> )
+            ( <tr><td colSpan="8" className="text-center fw-bold fst-italic text-info">No Transactions Data.</td></tr> )
         }
         </tbody>
       </Table>
